@@ -1,6 +1,9 @@
 # MY VIM CONFIGURATION
 
 ## build config
+### get repo
+    git clone git@github.com:skinwalker3654/VIM_CONFIG
+    cd VIM_CONFIG
 
 ### 1. Download Vim
     sudo apt update && sudo apt install vim clangd -y

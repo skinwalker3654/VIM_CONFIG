@@ -1,6 +1,6 @@
 # MY VIM CONFIGURATION
 
-## build config
+## Build Config
 ### get repo
     git clone git@github.com:skinwalker3654/VIM_CONFIG
     cd VIM_CONFIG
@@ -15,14 +15,14 @@
 ## 3. Move file to home directory
     cp .vimrc ~/.vimrc
     
-## 4. Downloads plugs
+## 4. Downloads Plugs
     vim ~/.vimrc  #open vimrc file
     
     :PlugInstall  # End write that without changing enything else
 
-## 5. Install coc extensions
+## 5. Install coc Extensions
     :CocInstall coc-clangd  # now write that without changing enything
 
-## 6. Save and quite
+## 6. Save and Quite
     :wq  #to exit vim
     

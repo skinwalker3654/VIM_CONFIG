@@ -45,6 +45,7 @@ Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
+
 " ----------- coc.nvim Config ----------- 
 let g:coc_global_extensions = ['coc-clangd']
 

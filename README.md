@@ -7,7 +7,7 @@
     git clone git@github.com:skinwalker3654/VIM_CONFIG
     cd VIM_CONFIG
 
-### 2. Download Vim
+### 2. Download Vim & clangd
     sudo apt update && sudo apt install vim clangd -y
     
 ### 3. Download vim-plug

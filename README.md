@@ -1,4 +1,5 @@
 # MY VIM CONFIGURATION
+
 ---
 
 ## Steps to get it
@@ -26,7 +27,7 @@
 
 ### 7. Save and Quite
     :wq  #to exit vim
-
+    
 ---
 
 ## What you have with that configuration?
@@ -35,7 +36,7 @@
 2. It prints both brackets at the same time
 3. syntax hilighting
 4. cool status line
-5. file exlpoer. Type ctrl + n
-6. suggestions
+5. file explorer. Type ctrl + n to enable it
+6. auto suggestions
 
-## Its good for c/c++ ONLY
+## Its good for C/C++ ONLY

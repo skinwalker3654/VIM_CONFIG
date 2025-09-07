@@ -26,4 +26,16 @@
 
 ### 7. Save and Quite
     :wq  #to exit vim
-    
+
+---
+
+## What you have with that configuration?
+
+1. It has auto complete with tabs
+2. It prints both brackets at the same time
+3. syntax hilighting
+4. cool status line
+5. file exlpoer. Type ctrl + n
+6. suggestions
+
+## Its good for c/c++ ONLY

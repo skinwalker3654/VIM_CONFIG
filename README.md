@@ -1,28 +1,29 @@
 # MY VIM CONFIGURATION
+---
 
-## Build Config
-### get repo
+## Steps to get it
+
+### 1. get repo
     git clone git@github.com:skinwalker3654/VIM_CONFIG
     cd VIM_CONFIG
 
-### 1. Download Vim
+### 2. Download Vim
     sudo apt update && sudo apt install vim clangd -y
     
-## 2. Download vim-plug
+### 3. Download vim-plug
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     
-## 3. Move file to home directory
+### 4. Move file to home directory
     cp .vimrc ~/.vimrc
     
-## 4. Downloads Plugs
+### 5. Downloads Plugs
     vim ~/.vimrc  #open vimrc file
-    
     :PlugInstall  # End write that without changing enything else
 
-## 5. Install coc Extensions
+### 6. Install coc Extensions
     :CocInstall coc-clangd  # now write that without changing enything
 
-## 6. Save and Quite
+### 7. Save and Quite
     :wq  #to exit vim
     

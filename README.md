@@ -9,7 +9,7 @@
     cd VIM_CONFIG
 
 ### 2. Download Vim & clangd
-    sudo apt update && sudo apt install vim clangd -y
+    sudo apt update && sudo apt install vim clangd nodejs npm -y
     
 ### 3. Download vim-plug
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \

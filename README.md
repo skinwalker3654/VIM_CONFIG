@@ -15,7 +15,7 @@
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     
-### 4. Move file to home directory
+### 4. Copy the file to home directory
     cp .vimrc ~/.vimrc
     
 ### 5. Downloads Plugs

@@ -5,6 +5,8 @@ set background=dark
 
 " ----------- LINES ----------
 set number
+set hlsearch  
+set incsearch 
 
 " ----------- Tabs / Indentation ----------- 
 set tabstop=4               " 4 spaces by a TAB
@@ -35,6 +37,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Syntax highlighting for all languages
 Plug 'sheerun/vim-polyglot'
 
+" OneDark theme
+Plug 'joshdick/onedark.vim'
+
 " Status bar 
 Plug 'itchyny/lightline.vim'
 
@@ -45,6 +50,8 @@ Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
+
+colorscheme onedark
 
 " ----------- coc.nvim Config ----------- 
 let g:coc_global_extensions = ['coc-clangd']
